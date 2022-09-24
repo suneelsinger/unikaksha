@@ -217,3 +217,218 @@ if(a>b):
 else:
     LCM=lcm(a,b)
 print(LCM)
+n=int(input())
+
+i=1                
+
+while(True):   
+
+  if(n%i==0):
+
+    n=n//i
+
+  else:
+
+    break
+
+  i=i+1 
+
+if(n==1):
+
+  print("Yes")
+
+else:
+
+  print("No")
+  n=int(input())
+
+a=11
+
+b=4
+
+for i in range(1,n+1):
+
+                   mul=a**2
+
+                   print(mul,end=" ")
+                   n=int(input())
+
+a=0
+
+for i in range(1,n+1):
+
+                   if(i%2!=0):
+
+                                      print((i*i-1),end=" ")
+
+                   else:
+
+                                      print((i*i-2),end=" ")
+n = int(input())
+
+a = 1
+
+b = 2.0
+
+print(a,b,end=" ")
+
+for i in range(3,n+1):
+
+  if i%2==1:
+
+    a=a*3
+
+    print(float(a),end=" ")
+
+  else:
+
+    b=b*3
+
+    print(float(b),end=" ")#python
+  import math
+
+n = int(input())
+
+a,b=4,5
+
+sum = 0
+
+print(a)
+
+print(b)
+
+sum = a+b
+
+for i in range(3,n+1):
+
+  print(sum)
+
+  sum=sum+pow(i,2)#python
+ n=int(input())
+
+a=2
+
+for i in range(1,n+1):
+list=[]
+
+n=int(input())
+
+for i in range(1,n+1):
+
+  list.append(int(input()))
+
+print(list)#python
+list=[]
+
+n=int(input())
+
+for i in range(1,n+1):
+
+  list.append(int(input()))
+
+  max=list[0]
+
+for i in list:
+
+  if i>max:
+
+    max=i
+
+print(max)#python
+list=[]
+
+l1=[]
+
+l2=[]
+
+n = int(input())
+
+for i in range(1,n+1):
+
+  list.append(int(input()))
+
+for i in list:
+
+  if i%2==0:
+
+    l1.append(i)
+
+  else:
+
+    l2.append(i)
+
+print(l1)
+
+print(l2)
+list=[]
+
+sum=0
+
+n=int(input())
+
+for i in range(1,n+1):
+
+  list.append(int(input()))
+
+for i in list:
+
+  sum+=i
+
+print(sum/len(list))#python
+list=[]
+
+list2=[]
+
+n=int(input())
+
+for i in range(1,n+1):
+
+  list.append(int(input()))
+
+for i in list:
+
+  if i not in list2:
+
+    list2.append(i)
+
+print("Non-duplicate items:")
+
+print(list2)#python
+list=[]
+
+n=int(input())
+
+for i in range(1,n+1):
+
+  list.append(int(input()))
+
+z=len(list)
+
+list.sort()
+
+for i in range(z-2,-1,-1):
+
+  if list[i]!=list[z-1]:
+
+    print(list[i])
+
+    break
+tuplex=(4,6,2,8,3,1)
+
+tuplex=tuplex[ :5]+(15,20,25)+tuplex[ :5]
+
+listx=list(tuplex)
+
+listx.append(30)
+
+tuplex=tuple(listx)
+
+print(tuplex)#python
+t = tuple(input())
+
+print(t)
+
+print(len(t))#pyton
+a = input()
+
+print(tuple(reversed(a)))
